@@ -10,6 +10,7 @@ body {
     justify-content: space-around;
     align-items: center;
     font-size: 24px;
+    flex: 1;
 }
 ul {
     list-style-type: none;
@@ -21,4 +22,130 @@ a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
+}
+.upper-body {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    justify-content: space-evenly;
+    gap: 60px;
+    padding: 100px 200px;
+}
+
+.upper-body1 {
+    max-width: 400px;
+}
+
+.upper-body1 h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.upper-body img {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+}
+
+.middle-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.middle-body img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.middle-body p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    color: gray;
+}
+
+.block-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.lower-body {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    padding: 150px 300px;
+}
+
+.lower-body p {
+    margin: 0;
+}
+
+p.one {
+    align-self: flex-end;
+    font-weight: 800;
+}
+
+.legs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 150px;
+}
+
+.inner-leg {
+    color: white;
+    width: 900px;
+    border-radius: 5px;
+    padding: 40px 20px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.inner-leg button {
+    border: 2px solid white;
+    height: 41px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.inner-leg p {
+    margin: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
